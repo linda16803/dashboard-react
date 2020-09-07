@@ -44,7 +44,7 @@ import styles from "assets/jss/material-dashboard-react/views/rtlStyle.js";
 import avatar from "assets/img/faces/marc.jpg";
 
 let bugs = [
-  "طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن؟",
+  "此文字的图形设计师是否可以作为构成元素？",
   "	نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند؟",
   "همان حال کار آنها به نوعی وابسته به متن می‌باشد",
   "	آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند"
@@ -83,7 +83,7 @@ export default function RTLPage() {
                   <Warning />
                 </Danger>
                 <a href="#pablo" onClick={e => e.preventDefault()}>
-                  فضای بیشتری داشته باشید...
+                  存储
                 </a>
               </div>
             </CardFooter>
@@ -345,17 +345,12 @@ export default function RTLPage() {
               </a>
             </CardAvatar>
             <CardBody profile>
-              <h6 className={classes.cardCategory}>مدیرعامل / مدیرفنی</h6>
-              <h4 className={classes.cardTitle}>خداداد عزیزی</h4>
+              <h6 className={classes.cardCategory}>名字</h6>
+              <h4 className={classes.cardTitle}>姓</h4>
               <p className={classes.description}>
-                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن
-                صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
-                می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و
-                ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از
-                متن‌های آزمایشی و بی‌معنی استفاده می‌کنند ...
-              </p>
+                详细介绍</p>
               <Button color="primary" round>
-                دنبال‌کردن
+                作者
               </Button>
             </CardBody>
           </Card>

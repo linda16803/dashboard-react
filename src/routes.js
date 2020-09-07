@@ -40,7 +40,7 @@ const dashboardRoutes = [
   {
     path: "/dashboard",
     name: "Dashboard",
-    rtlName: "لوحة القيادة",
+    rtlName: "模板",
     icon: Dashboard,
     component: DashboardPage,
     layout: "/admin"
@@ -48,7 +48,7 @@ const dashboardRoutes = [
   {
     path: "/user",
     name: "User Profile",
-    rtlName: "ملف تعريفي للمستخدم",
+    rtlName: "用户",
     icon: Person,
     component: UserProfile,
     layout: "/admin"
@@ -56,7 +56,7 @@ const dashboardRoutes = [
   {
     path: "/table",
     name: "Table List",
-    rtlName: "قائمة الجدول",
+    rtlName: "表格",
     icon: "content_paste",
     component: TableList,
     layout: "/admin"
@@ -64,7 +64,7 @@ const dashboardRoutes = [
   {
     path: "/typography",
     name: "Typography",
-    rtlName: "طباعة",
+    rtlName: "图识",
     icon: LibraryBooks,
     component: Typography,
     layout: "/admin"
@@ -72,7 +72,7 @@ const dashboardRoutes = [
   {
     path: "/icons",
     name: "Icons",
-    rtlName: "الرموز",
+    rtlName: "图标",
     icon: BubbleChart,
     component: Icons,
     layout: "/admin"
@@ -81,7 +81,7 @@ const dashboardRoutes = [
   {
     path: "/notifications",
     name: "Notifications",
-    rtlName: "إخطارات",
+    rtlName: "通知",
     icon: Notifications,
     component: NotificationsPage,
     layout: "/admin"
@@ -89,7 +89,7 @@ const dashboardRoutes = [
   {
     path: "/rtl-page",
     name: "RTL Support",
-    rtlName: "پشتیبانی از راست به چپ",
+    rtlName: "技术·支持",
     icon: Language,
     component: RTLPage,
     layout: "/rtl"
@@ -97,7 +97,7 @@ const dashboardRoutes = [
   {
     path: "/upgrade-to-pro",
     name: "Panda",
-    rtlName: "التطور للاحترافية",
+    rtlName: "升级",
     icon: Unarchive,
     component: UpgradeToPro,
     layout: "/admin"
